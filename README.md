@@ -1,4 +1,5 @@
 # Second Opinion MCP Server
+[![smithery badge](https://smithery.ai/badge/@PoliTwit1984/second-opinion-mcp-server)](https://smithery.ai/server/@PoliTwit1984/second-opinion-mcp-server)
 
 An MCP server that provides AI-powered assistance for coding problems by combining insights from:
 - Google's Gemini AI
@@ -15,6 +16,15 @@ An MCP server that provides AI-powered assistance for coding problems by combini
 
 ## Setup
 
+### Installing via Smithery
+
+To install Second Opinion for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@PoliTwit1984/second-opinion-mcp-server):
+
+```bash
+npx -y @smithery/cli install @PoliTwit1984/second-opinion-mcp-server --client claude
+```
+
+### Manual Installation
 1. Install dependencies:
 ```bash
 npm install
